@@ -1,0 +1,111 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/tabbar/follow/follow",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tabbar/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/home-label/home-label",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "标签页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail-comments/detail-comments",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "评论列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-article/my-article",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#dd524d",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页",
+				"iconPath": "static/home.png",
+				"selectedIconPath": "static/home-active.png"
+			},
+
+			{
+				"pagePath": "pages/tabbar/follow/follow",
+				"text": "关注",
+				"iconPath": "static/follow.png",
+				"selectedIconPath": "static/follow-active.png"
+			},
+
+			{
+				"pagePath": "pages/tabbar/my/my",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "news",
+		"navigationBarBackgroundColor": "#f07373",
+		"navigationBarTextStyle":"white",
+		"backgroundColor": "#f8f8f8"
+	}
+}
